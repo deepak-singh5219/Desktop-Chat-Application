@@ -1,0 +1,138 @@
+.Chat{
+    
+    flex:0.65;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.chat_header{
+    flex:0.12;
+    display:flex;
+    margin:3px;
+
+
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+    border-bottom: 1px solid rgb(230, 225, 225);
+    background-color: rgb(230, 237, 243);
+    border-radius:20px;
+
+    
+}
+
+.chat_body{
+    flex:0.80;
+    position:relative;
+
+    background-image:url("./bg.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    padding:30px;
+    overflow-y:scroll;
+    
+    margin:0px 3px 3px 3px;
+    border-radius:20px;
+   
+}
+
+
+.chat_footer{
+    padding:5px;
+    flex:0.07;
+    background-color:rgb(230, 237, 243);
+    margin:0px 3px 3px 3px;
+    border-radius:20px;
+    display:flex;
+    align-items: center;
+    padding:2px;
+}
+
+.footer_container{
+    display:flex;
+    align-items: center;
+    width:100%;
+    padding:2px;
+    
+
+}
+.footer_container> form{
+    flex:1;
+    display:flex;
+}
+.footer_container > form > input {
+    border:none;
+
+    background-color:rgb(230, 237, 243);
+    font-size: 20px;
+    width:100%;
+    height:60px;
+    padding:2px;
+    border-radius:10px;
+    outline-width: 0;
+    
+    margin:5px;
+}
+
+
+.footer_container > form > button {
+    display:none;
+
+}
+
+.chat_header_right{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+   
+}
+
+.chat_header_info{
+    flex:1;
+    padding-left: 20px;
+}
+
+.chat_header_info > h3{
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.chat_header_info > p{
+    color:gray;
+} 
+
+.chat_message{
+    position: relative;
+    font-size: 16px;
+    padding:10px;
+    width: fit-content;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color:rgb(199, 224, 224);
+}
+
+.chat_name{
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    font-weight: 700;
+    font-size: small;
+
+}
+
+.chat_time{
+    margin-left: 10px;
+    font-size: xx-small;
+
+}
+
+.chat_sent{
+    margin-left: auto;
+    background-color: rgb(187, 187, 187);
+    
+}
+
+
+
+
